@@ -1,4 +1,5 @@
-$("#typeSelector").change(function () {
-  var str = $("#typeSelector option:selected").text()
+const updateBreedType = () => {
+  let str = $("#typeSelector option:selected").text()
   console.log("typeSelector: " + str)
-})
+}
+
